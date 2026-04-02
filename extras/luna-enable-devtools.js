@@ -11052,7 +11052,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     }
                     var R;
                     if (ke.isRunning) return w("already running");
-                    return w("not allowed");
+                    return;
                     if (U(), R = window.console || {
                             log: function () {},
                             table: function () {},
